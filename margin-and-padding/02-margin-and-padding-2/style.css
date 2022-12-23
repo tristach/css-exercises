@@ -3,24 +3,31 @@ body {
   font-family: sans-serif;
 }
 
+/* ignore!margin between nifty and pink box*/
 .card {
   width: 400px;
-  background: #fff;
-  margin: 16px auto;
+  background: rgb(255, 255, 255);
+  margin: 6px auto;
 }
 
+/*nifty card*/
 .title {
   background: #e3f4ff;
+  border: 8px;
 }
 
 .content {
-  background: #e3f4ff;
+  background: #ffe3e7;
+  margin-block: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .button-container {
-  background: #e3f4ff;
+  background: #537b88;
 }
 
+/*big button*/
 button {
   background: white;
   border: 1px solid #eee;
